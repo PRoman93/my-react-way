@@ -1,4 +1,20 @@
 .container{
-    width: 70%;
     background-color: mediumblue;
+    display:grid;
+    grid-template-columns: 2fr 10fr;
+    width: 100%;
+}
+.dialogsItem{
+}
+/*.dialog a{*/
+/*    padding: 10%;*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*}*/
+.message{
+    padding: 5px;
+
+}
+.active.active{
+    color: gold;
 }

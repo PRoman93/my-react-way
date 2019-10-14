@@ -9,10 +9,3 @@
     font-size: 25px;
     color: yellow;
 }
-.container a{
-    text-decoration: none;
-    color:  aqua;
-}
-.active.active{
-    color: gold;
-}

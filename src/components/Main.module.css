@@ -5,3 +5,7 @@
 .header{
 
 }
+.wrapperContent{
+    min-width: 80%;
+    min-height: 100%;
+}

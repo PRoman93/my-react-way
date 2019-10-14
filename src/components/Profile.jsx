@@ -1,7 +1,7 @@
 import React from "react";
-import s from "./Content.module.css"
+import s from "./Profile.module.css"
 
-const Content = () => {
+const Profile = () => {
     return (
         <div className={s.container}>
             <div className={s.mainImage}><img
@@ -35,4 +35,4 @@ const Content = () => {
         </div>
     )
 };
-export default Content;
+export default Profile;
