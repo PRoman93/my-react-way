@@ -4,11 +4,11 @@ import s from "./Navbar.module.css"
 const Navbar = () => {
     return (
         <nav className={s.container}>
-            <div>Profile</div>
-            <div>Messages</div>
-            <div>News</div>
-            <div>Music</div>
-            <div>Settings</div>
+            <a href="/content">Profile</a>
+            <a href="/dialogs">Messages</a>
+            <a>News</a>
+            <a>Music</a>
+            <a>Settings</a>
         </nav>
     )
 };
