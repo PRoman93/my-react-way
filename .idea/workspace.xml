@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Music.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Music.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Settings.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Settings.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,8 +41,20 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Dialogs.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="513">
+                <state relative-caret-position="393">
                   <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Profile.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="460">
+                  <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -201,6 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,7 +221,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,7 +310,8 @@
       <workItem from="1570982799590" duration="1622000" />
       <workItem from="1570988925031" duration="820000" />
       <workItem from="1571049820529" duration="8309000" />
-      <workItem from="1571073183300" duration="2807000" />
+      <workItem from="1571073183300" duration="3024000" />
+      <workItem from="1571131041475" duration="905000" />
     </task>
     <task id="LOCAL-00001" summary="add some changes to different files">
       <created>1570810609672</created>
@@ -329,11 +327,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571049880361</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="24-th lesson is done">
+      <created>1571078538746</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571078538746</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51672000" />
+    <option name="totallyTimeSpent" value="52794000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,7 +352,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.50289017" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.48554912" side_tool="true" weight="0.25" />
@@ -375,7 +379,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add some changes to different files" />
     <MESSAGE value="19-th lesson is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="19-th lesson is done" />
+    <MESSAGE value="24-th lesson is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="24-th lesson is done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/index.html">
@@ -463,16 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Profile.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/News.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -517,6 +512,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Profile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -553,7 +558,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
+        <state relative-caret-position="393">
           <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
