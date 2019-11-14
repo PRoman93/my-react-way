@@ -25,7 +25,7 @@ const App = (props) => {
     return (
         <div className="wrapper">
             <div><Header/></div>
-            <div><Main dialogs={props.state.dialogs} message={props.state.message}/></div>
+            <div><Main dialogs={props.dialogs} message={props.message} postData={props.postData}/></div>
         </div>
 
 

@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="24-th lesson is done">
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Dialogs/Messages/Messages.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/state.js" afterDir="false" />
+    <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Music.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Music/Music.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Music.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Music/Music.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Navbar/Navbar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/News/News.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/News/News.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileImage/ProfileImage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Settings/Settings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Settings.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Settings/Settings.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +159,7 @@
       <workItem from="1571733412811" duration="11000" />
       <workItem from="1571759178141" duration="28000" />
       <workItem from="1573639148829" duration="2489000" />
-      <workItem from="1573721628972" duration="14591000" />
+      <workItem from="1573721628972" duration="19914000" />
     </task>
     <task id="LOCAL-00001" summary="add some changes to different files">
       <created>1570810609672</created>
@@ -206,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571151710048</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="25-th lesson is done">
+      <created>1573746374816</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573746374816</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +219,7 @@
     <MESSAGE value="add some changes to different files" />
     <MESSAGE value="19-th lesson is done" />
     <MESSAGE value="24-th lesson is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="24-th lesson is done" />
+    <MESSAGE value="25-th lesson is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="25-th lesson is done" />
   </component>
 </project>
