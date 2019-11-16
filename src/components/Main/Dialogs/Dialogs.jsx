@@ -30,10 +30,9 @@ const Dialogs = (props) => {
 
 
 
-    debugger
 
-    let dialogsElements = props.state.map(d => <DialogsItem name={d.name} id={d.id} />)
-    let messageElements = props.state.map(m => <MessageItem message={m.message}/>)
+    let dialogsElements = props.message.map(d => <DialogsItem name={d.name} id={d.id} />)
+    let messageElements = props.message.map(m => <MessageItem message={m.message}/>)
 
 
     return (
