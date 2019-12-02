@@ -5,11 +5,11 @@ import Main from "./components/Main/Main"
 
 
 const App = (props) => {
-    //console.log(props.state)
+
     return (
         <div className="wrapper">
             <div><Header/></div>
-            <div><Main messageData={props.state.messageData} postData={props.state.profileData}/></div>
+            <div><Main state={props.state} dispatch={props.dispatch} store={props.store}/></div>
         </div>
 
 
