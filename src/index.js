@@ -4,20 +4,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import store from './state/redux-store';
+import {Provider} from "react-redux";
 
 export * from "react-router-dom";
 
-let rerender = (state) => {
-    ReactDOM.render(<App dispatch={store.dispatch.bind(store)}
-                         state={state}
-                         store={store}/>, document.getElementById('root'));
-}
-rerender(store.getState())
 
-store.subscribe( () => {
-    let state = store.getState();
-    rerender(state)
-})
+    ReactDOM.render(
+        <Provider store={store}>
+        <App/>
+        </Provider>, document.getElementById('root'));
+
 
 
 // If you want your app to work offline and load faster, you can change

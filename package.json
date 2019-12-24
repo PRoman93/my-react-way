@@ -4,8 +4,10 @@
   "private": true,
   "homepage": "https://proman93.github.io/my-react-way/",
   "dependencies": {
+    "axios": "^0.19.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-redux": "^7.1.3",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "redux": "^4.0.4"

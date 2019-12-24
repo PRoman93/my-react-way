@@ -1,7 +1,5 @@
 import React from "react";
 import s from "./Dialogs.module.css"
-import {NavLink} from "react-router-dom";
-import Messages from "./Messages/Messages"
 import DialogsItem from "./DialogsItem";
 import MessageItem from "./MessageItem";
 import {
@@ -11,15 +9,15 @@ import {
 
 
 const Dialogs = (props) => {
-    debugger
-    let state = props.store.getState().messageData
+
+    let state = props.messageData;
+    console.log(props)
     let onSendMessageClick = () => {
-          props.store.dispatch(sendMessageActionCreator())
+          props.sendMessage()
     }
     let onNewMessageChange = (e) => {
-        debugger
         let message = e.target.value
-        props.store.dispatch(updateNewMessageTextActionCreator(message))
+        props.updateNewMessageText(message)
 
     }
     let dialogsElements = state.dialogs.map(d => <DialogsItem name={d.name} id={d.id}/>)

@@ -7,6 +7,9 @@ import News from "./News/News";
 import Music from "./Music/Music"
 import Settings from "./Settings/Settings"
 import {BrowserRouter, Route} from "react-router-dom";
+import DialogsContainer from "./Dialogs/DialogsContainer";
+import Users from "../Users/Users";
+import UsersContainer from "../Users/UsersContainer";
 
 const Main = (props) => {
     return (
@@ -14,13 +17,12 @@ const Main = (props) => {
             <div className={s.container}>
                 <Navbar/>
                 <div className={s.wrapperContent}>
-                    <Route path='/dialogs' render={() => <Dialogs store={props.store} />}/>
-                    <Route path='/content' render={() => <Profile profileData={props.state.profileData}
-                                                                  dispatch={props.dispatch}
-                                                                  newPostText={props.state.profileData.newPostText}/>}/>
+                    <Route path='/dialogs' render={() => <DialogsContainer store={props.store}/>}/>
+                    <Route path='/content' render={() => <Profile store={props.store}/>}/>
                     <Route path='/news' component={News}/>
                     <Route path='/music' component={Music}/>
                     <Route path='/settings' component={Settings}/>
+                    <Route path='/users' render={() => <UsersContainer/>}/>
                 </div>
             </div>
         </BrowserRouter>

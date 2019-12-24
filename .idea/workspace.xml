@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/state/redux-store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Main/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Main/Profile/Posts/PostsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersС.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/users-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Navbar/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/state" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Users" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -62,11 +69,11 @@
       <recent name="D:\React\my-react-way\src\components\Main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\React\my-react-way\src\components\Users" />
       <recent name="D:\React\my-react-way\src\state" />
-      <recent name="D:\React\my-react-way\src" />
-      <recent name="D:\React\my-react-way\src\components\Main\Profile\Posts" />
       <recent name="D:\React\my-react-way\src\components\Main\Dialogs" />
-      <recent name="D:\React\my-react-way\src\components\Main\Profile\ProfileInfo" />
+      <recent name="D:\React\my-react-way\src\components\Main\Profile\Posts" />
+      <recent name="D:\React\my-react-way\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -108,6 +115,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -120,9 +137,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +208,23 @@
       <workItem from="1575020088269" duration="5478000" />
       <workItem from="1575118447755" duration="1214000" />
       <workItem from="1575203520250" duration="669000" />
+      <workItem from="1575296905886" duration="208000" />
+      <workItem from="1575376522531" duration="606000" />
+      <workItem from="1575385199799" duration="609000" />
+      <workItem from="1575452555973" duration="10472000" />
+      <workItem from="1575537525621" duration="600000" />
+      <workItem from="1575548397946" duration="1855000" />
+      <workItem from="1575628620229" duration="2030000" />
+      <workItem from="1575652252991" duration="3291000" />
+      <workItem from="1575706006735" duration="7361000" />
+      <workItem from="1575826517557" duration="141000" />
+      <workItem from="1576409763478" duration="4557000" />
+      <workItem from="1576480860914" duration="789000" />
+      <workItem from="1577008486103" duration="10431000" />
+      <workItem from="1577031081994" duration="135000" />
+      <workItem from="1577091619391" duration="4631000" />
+      <workItem from="1577123859206" duration="2801000" />
+      <workItem from="1577175377843" duration="1685000" />
     </task>
     <task id="LOCAL-00001" summary="add some changes to different files">
       <created>1570810609672</created>
@@ -254,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573895178447</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="42-th lesson is done">
+      <created>1575296953216</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575296953216</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +322,22 @@
     <MESSAGE value="25-th lesson is done" />
     <MESSAGE value="28-th lesson is done" />
     <MESSAGE value="29-th lesson is error" />
-    <option name="LAST_COMMIT_MESSAGE" value="29-th lesson is error" />
+    <MESSAGE value="42-th lesson is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="42-th lesson is done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Main/Dialogs/DialogsContainer.jsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Users/UsersС.js</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
