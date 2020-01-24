@@ -11,7 +11,6 @@ import {
 const Dialogs = (props) => {
 
     let state = props.messageData;
-    console.log(props)
     let onSendMessageClick = () => {
           props.sendMessage()
     }

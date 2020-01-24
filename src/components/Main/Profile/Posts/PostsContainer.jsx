@@ -10,7 +10,7 @@ import {sendMessageActionCreator, updateNewMessageTextActionCreator} from "../..
 const mapStateToProps = (state) => {
     return {
         postData: state.profileData.postData,// стремный момент - берет несуществующий profileData.postData !!! УЗНАТЬ
-        newPostText:state.newPostText
+        newPostText:state.profileData.newPostText
     }
 }
 let mapDispatchToProps = (dispatch) => {
