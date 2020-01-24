@@ -11,7 +11,7 @@ export * from "react-router-dom";
 
     ReactDOM.render(
         <Provider store={store}>
-        <App/>
+        <App />
         </Provider>, document.getElementById('root'));
 
 

@@ -5,7 +5,6 @@ import Main from "./components/Main/Main"
 
 
 const App = (props) => {
-
     return (
         <div className="wrapper">
             <div><Header/></div>
