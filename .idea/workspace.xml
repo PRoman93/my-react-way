@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/Api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/users-reducer.js" afterDir="false" />
     </list>
     <list id="257c5827-85c9-4da7-bfee-3b5928eddf2d" name="64-th lesson is done" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -225,7 +226,7 @@
       <workItem from="1580049279676" duration="940000" />
       <workItem from="1580064219777" duration="67000" />
       <workItem from="1580065058318" duration="2000" />
-      <workItem from="1580119786888" duration="5067000" />
+      <workItem from="1580119786888" duration="7968000" />
     </task>
     <task id="LOCAL-00001" summary="add some changes to different files">
       <created>1570810609672</created>
@@ -332,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580123214097</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="63-th lesson is done">
+      <created>1580125289072</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1580125289072</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +372,8 @@
     <MESSAGE value="60-th lesson is done" />
     <MESSAGE value="61-th lesson is done" />
     <MESSAGE value="62-th lesson is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="62-th lesson is done" />
+    <MESSAGE value="63-th lesson is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="63-th lesson is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
