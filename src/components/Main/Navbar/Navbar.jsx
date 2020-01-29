@@ -6,9 +6,9 @@ import {getAuthUserData} from "../../../state/auth-reducer";
 
 class Navbar extends Component {
 
-    // componentDidMount() {
-    //     this.props.getAuthUserData()
-    // }
+    componentDidMount() {
+        this.props.getAuthUserData()
+    }
 
     render() {
         return (
