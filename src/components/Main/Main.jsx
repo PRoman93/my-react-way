@@ -1,16 +1,14 @@
 import React from "react";
 import s from "./Main.module.css"
 import Navbar from "./Navbar/Navbar"
-import Profile from "./Profile/Profile";
-import Dialogs from "./Dialogs/Dialogs";
 import News from "./News/News";
 import Music from "./Music/Music"
 import Settings from "./Settings/Settings"
 import {BrowserRouter, Route} from "react-router-dom";
 import DialogsContainer from "./Dialogs/DialogsContainer";
-import Users from "../Users/Users";
 import UsersContainer from "../Users/UsersContainer";
 import ProfileContainer from "./Profile/ProfileContainer";
+import Login from "../Login/Login";
 
 const Main = (props) => {
     return (
@@ -24,6 +22,7 @@ const Main = (props) => {
                     <Route path='/music' component={Music}/>
                     <Route path='/settings' component={Settings}/>
                     <Route path='/users' render={() => <UsersContainer/>}/>
+                    <Route path='/login' render={() => <Login/>}/>
                 </div>
             </div>
         </BrowserRouter>

@@ -19,5 +19,14 @@ export const usersAPI = {
     },
     unfollow(userId) {
         return instanse.delete(`follow/${userId}`)
+    },
+    getProfile(userId) {
+        return instanse.get(`profile/` + userId)
+
+    }
+}
+export const authAPI = {
+    me() {
+        return instanse.get(`auth/me`)
     }
 }

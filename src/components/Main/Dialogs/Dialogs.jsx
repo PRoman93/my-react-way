@@ -6,6 +6,7 @@ import {
     sendMessageActionCreator,
     updateNewMessageTextActionCreator,
 } from "../../../state/message-reducer";
+import {Redirect} from "react-router-dom";
 
 
 const Dialogs = (props) => {

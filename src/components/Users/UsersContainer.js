@@ -13,6 +13,7 @@ import * as axios from "axios";
 import loader from './Spinner-1s-200px.svg'
 import Preloader from "../../common/preloader/Preloader";
 import {usersAPI} from "../../api/Api";
+import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 
 class UsersContainer extends React.Component {
 
@@ -53,10 +54,9 @@ let mapStateToProps = (state) => {
         isFetching: state.usersPage.isFetching,
         followingInProgress: state.usersPage.followingInProgress
     }
-
 }
 
 
-export default connect(mapStateToProps, {follow, unfollow,
+export default withAuthRedirect(connect(mapStateToProps, {follow, unfollow,
     setCurrentPage,
-    toggleFollowingProgress, getUsers})(UsersContainer)
+    toggleFollowingProgress, getUsers})(UsersContainer))
