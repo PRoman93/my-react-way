@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/Api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/auth-reducer.js" afterDir="false" />
     </list>
     <list id="257c5827-85c9-4da7-bfee-3b5928eddf2d" name="64-th lesson is done" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -53,19 +52,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\React\my-react-way\src\components\Main\Profile\ProfileImage" />
-      <recent name="D:\React\my-react-way\src\state" />
-      <recent name="D:\React\my-react-way\src\components\Main\Profile" />
-      <recent name="D:\React\my-react-way\src\components\Users" />
-      <recent name="D:\React\my-react-way\src\components\Main\Dialogs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\React\my-react-way\src\state" />
       <recent name="D:\React\my-react-way\src\store" />
       <recent name="D:\React\my-react-way\src\components\Main\Dialogs\Messages" />
       <recent name="D:\React\my-react-way\src\components\Main\Profile\ProfileImage" />
       <recent name="D:\React\my-react-way\src\components\Main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\React\my-react-way\src\components\Main\Profile\ProfileInfo" />
+      <recent name="D:\React\my-react-way\src\components\Main\Profile\ProfileImage" />
+      <recent name="D:\React\my-react-way\src\state" />
+      <recent name="D:\React\my-react-way\src\components\Main\Profile" />
+      <recent name="D:\React\my-react-way\src\components\Users" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -235,7 +234,9 @@
       <workItem from="1580294260186" duration="1827000" />
       <workItem from="1580310321138" duration="67000" />
       <workItem from="1580480586601" duration="1044000" />
-      <workItem from="1580547558872" duration="1958000" />
+      <workItem from="1580547558872" duration="1992000" />
+      <workItem from="1580550965046" duration="11000" />
+      <workItem from="1580728216934" duration="9805000" />
     </task>
     <task id="LOCAL-00001" summary="add some changes to different files">
       <created>1570810609672</created>
@@ -377,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580296078002</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="70-th lesson is done">
+      <created>1580549769606</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1580549769606</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +421,8 @@
     <MESSAGE value="64-th lesson is done" />
     <MESSAGE value="66-th lesson is done" />
     <MESSAGE value="68-th lesson is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="68-th lesson is done" />
+    <MESSAGE value="70-th lesson is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="70-th lesson is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
