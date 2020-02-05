@@ -2,28 +2,19 @@ import React from "react";
 import s from "./Dialogs.module.css"
 import DialogsItem from "./DialogsItem";
 import MessageItem from "./MessageItem";
-import {
-    sendMessageActionCreator,
-    updateNewMessageTextActionCreator,
-} from "../../../state/message-reducer";
-import {Redirect} from "react-router-dom";
+import {Field, reduxForm} from "redux-form";
 
 
 const Dialogs = (props) => {
 
     let state = props.messageData;
-    let onSendMessageClick = () => {
-          props.sendMessage()
-    }
-    let onNewMessageChange = (e) => {
-        let message = e.target.value
-        props.updateNewMessageText(message)
-
-    }
     let dialogsElements = state.dialogs.map(d => <DialogsItem name={d.name} id={d.id}/>)
     let messageElements = state.message.map(m => <MessageItem message={m.message}/>)
     let newMessageText = state.newMessageText
 
+    let onNewMessage = (values) => {
+        props.sendMessage(values.newMessageBody)
+    }
 
     return (
         <div className={s.container}>
@@ -33,18 +24,24 @@ const Dialogs = (props) => {
             </div>
             <div>
                 <div>{messageElements}</div>
-                <div><textarea value={newMessageText}
-                               onChange={onNewMessageChange}
-                               placeholder='Enter your message'>
-
-                    </textarea>
-                </div>
-                <div>
-                    <button onClick={onSendMessageClick}>send</button>
-                </div>
+                <AddMessageFormRedux onSubmit={onNewMessage}/>
             </div>
         </div>
     )
 };
+
+const AddMessageForm = (props) => {
+    return (
+        <form onSubmit={props.handleSubmit}>
+            <div>
+                <Field component={'textarea'} name={'newMessageBody'} placeholder={'Enter your message'}/>
+            </div>
+            <div><button>Send</button></div>
+        </form>
+    )
+}
+
+const AddMessageFormRedux = reduxForm({form : 'dialogAddMessageForm'})(AddMessageForm)
+
 
 export default Dialogs;
