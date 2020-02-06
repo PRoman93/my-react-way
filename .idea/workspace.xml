@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/FormsControls/FormsControls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/FormsControls/FormsControls.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/validators/validators.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/Api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/ProfileImage/ProfileImage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileImage/ProfileImage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/ProfileImage/ProfileImageContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileImage/ProfileImageContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/auth-reducer.js" afterDir="false" />
     </list>
     <list id="257c5827-85c9-4da7-bfee-3b5928eddf2d" name="64-th lesson is done" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/FormsControls" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -242,7 +243,9 @@
       <workItem from="1580804759898" duration="965000" />
       <workItem from="1580826032380" duration="2983000" />
       <workItem from="1580879560722" duration="1823000" />
-      <workItem from="1580895864417" duration="12375000" />
+      <workItem from="1580895864417" duration="12405000" />
+      <workItem from="1580915488980" duration="89000" />
+      <workItem from="1580993198879" duration="4913000" />
     </task>
     <task id="LOCAL-00001" summary="add some changes to different files">
       <created>1570810609672</created>
@@ -419,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580902671807</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="77-th lesson is done">
+      <created>1580908549309</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1580908549309</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +470,8 @@
     <MESSAGE value="74-th lesson is done" />
     <MESSAGE value="75-th lesson is done" />
     <MESSAGE value="76-th lesson is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="76-th lesson is done" />
+    <MESSAGE value="77-th lesson is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="77-th lesson is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

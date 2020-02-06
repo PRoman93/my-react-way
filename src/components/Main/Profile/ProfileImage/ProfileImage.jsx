@@ -8,7 +8,7 @@ const ProfileImage = (props) => {
             <div className={s.mainImage}>
                 <div>
                     {props.isAuth
-                        ? props.login
+                        ? <div>{props.login} - <button onClick={props.logout}>log out</button></div>
                         : <NavLink className={s.loginBlock} to={'/login'}>Login</NavLink>}
                 </div>
                 <img src="http://hq-wallpapers.ru/wallpapers/8/hq-wallpapers_ru_city_37352_1920x1200.jpg" alt=""/>

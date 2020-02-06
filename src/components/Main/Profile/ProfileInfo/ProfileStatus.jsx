@@ -38,9 +38,9 @@ class ProfileStatus extends Component {
 
         return (
 
-            <div>{!this.state.editMode && <div><span onDoubleClick={this.activatedEditMode}>{this.state.status || 'No status'}</span></div>}
+            <h4>{!this.state.editMode && <div><span onDoubleClick={this.activatedEditMode}>{this.state.status || 'No status'}</span></div>}
                 {this.state.editMode && <div><input onChange={this.onStatusChange} autoFocus={true} onBlur={this.deactivatedEditMode} value={this.state.status}/></div>}
-            </div>
+            </h4>
         )
     }
 }
