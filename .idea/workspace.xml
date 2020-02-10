@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/users-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/users-selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <list id="257c5827-85c9-4da7-bfee-3b5928eddf2d" name="64-th lesson is done" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/state" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -53,9 +50,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\React\my-react-way\src\components\Main\Profile\ProfileInfo" />
       <recent name="D:\React\my-react-way\src\state" />
       <recent name="D:\React\my-react-way\src\common\FormsControls" />
-      <recent name="D:\React\my-react-way\src\components\Main\Profile\ProfileInfo" />
       <recent name="D:\React\my-react-way\src\components\Main\Profile\ProfileImage" />
       <recent name="D:\React\my-react-way\src\components\Main\Profile" />
     </key>
@@ -247,7 +244,8 @@
       <workItem from="1581076932233" duration="1377000" />
       <workItem from="1581227206582" duration="1613000" />
       <workItem from="1581255020143" duration="6725000" />
-      <workItem from="1581325393094" duration="7520000" />
+      <workItem from="1581325393094" duration="9329000" />
+      <workItem from="1581343975014" duration="1523000" />
     </task>
     <task id="LOCAL-00001" summary="add some changes to different files">
       <created>1570810609672</created>
@@ -466,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581331149209</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="83-th lesson is done">
+      <created>1581341967197</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1581341967197</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +491,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="24-th lesson is done" />
     <MESSAGE value="25-th lesson is done" />
     <MESSAGE value="28-th lesson is done" />
     <MESSAGE value="29-th lesson is error" />
@@ -511,7 +515,8 @@
     <MESSAGE value="80-th trial lesson is done" />
     <MESSAGE value="80-th lesson is done" />
     <MESSAGE value="81-th lesson is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="81-th lesson is done" />
+    <MESSAGE value="83-th lesson is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="83-th lesson is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
