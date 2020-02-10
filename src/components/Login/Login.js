@@ -8,7 +8,6 @@ import {Redirect} from "react-router-dom";
 
 
 const LoginForm = (props) => {
-debugger
     return (
         <form onSubmit={props.handleSubmit}>
             <div>
