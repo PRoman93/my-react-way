@@ -1,7 +1,7 @@
 import React from "react";
 import ProfileImage from "./ProfileImage";
 import {connect} from "react-redux";
-import {getAuthUserData, logout} from "../../../../state/auth-reducer";
+import {logout} from "../../../../state/auth-reducer";
 
 class ProfileImageContainer extends React.Component{
 
@@ -27,4 +27,4 @@ export const mapStateToProps = (state) => ({
 
 
 
-export default connect(mapStateToProps, {getAuthUserData, logout}) (ProfileImageContainer);
+export default connect(mapStateToProps, { logout}) (ProfileImageContainer);

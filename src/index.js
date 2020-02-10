@@ -5,15 +5,17 @@ import './index.css';
 import App from './App';
 import store from './state/redux-store';
 import {Provider} from "react-redux";
+import {BrowserRouter} from "react-router-dom";
 
 export * from "react-router-dom";
 
 
-    ReactDOM.render(
+ReactDOM.render(
+    <BrowserRouter>
         <Provider store={store}>
-        <App />
-        </Provider>, document.getElementById('root'));
-
+            <App/>
+        </Provider>
+    </BrowserRouter>, document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
