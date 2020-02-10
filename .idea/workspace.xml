@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/state/users-selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/users-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/users-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/users-selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <list id="257c5827-85c9-4da7-bfee-3b5928eddf2d" name="64-th lesson is done" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -246,7 +247,7 @@
       <workItem from="1581076932233" duration="1377000" />
       <workItem from="1581227206582" duration="1613000" />
       <workItem from="1581255020143" duration="6725000" />
-      <workItem from="1581325393094" duration="4898000" />
+      <workItem from="1581325393094" duration="7520000" />
     </task>
     <task id="LOCAL-00001" summary="add some changes to different files">
       <created>1570810609672</created>
@@ -458,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581329027853</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="81-th lesson is done">
+      <created>1581331149209</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1581331149209</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="19-th lesson is done" />
     <MESSAGE value="24-th lesson is done" />
     <MESSAGE value="25-th lesson is done" />
     <MESSAGE value="28-th lesson is done" />
@@ -503,7 +510,8 @@
     <MESSAGE value="79-th lesson is done" />
     <MESSAGE value="80-th trial lesson is done" />
     <MESSAGE value="80-th lesson is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="80-th lesson is done" />
+    <MESSAGE value="81-th lesson is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="81-th lesson is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

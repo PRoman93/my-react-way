@@ -16,6 +16,7 @@ import {usersAPI} from "../../api/Api";
 import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 import {compose} from "redux";
 import {
+    gerUsers,
     getCurrentPage,
     getFollowingInProgress,
     getIsFetching,
@@ -65,7 +66,7 @@ class UsersContainer extends React.Component {
 // }
 let mapStateToProps = (state) => {
     return {
-        users: getUsers(state),
+        users: gerUsers(state),
         pageSize: getPageSize(state),
         totalUsersCount: getTotalUsersCount(state),
         currentPage: getCurrentPage(state),
