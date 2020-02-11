@@ -21,7 +21,6 @@ export const usersAPI = {
         return instanse.delete(`follow/${userId}`)
     },
     getProfile(userId) {
-      console.log('Obsolete method. Please use profileAPI object')
         return profileAPI.getProfile(userId)
 
     }
