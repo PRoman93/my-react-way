@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="" />
+    <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/common/Paginator/Paginator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/Paginator/Paginator.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/objects-helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/FormsControls/FormsControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/FormsControls/FormsControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/users-reducer.js" afterDir="false" />
+    </list>
     <list id="257c5827-85c9-4da7-bfee-3b5928eddf2d" name="64-th lesson is done" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -36,7 +49,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Users" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -46,19 +60,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\React\my-react-way\src\components\Main\Profile\ProfileInfo" />
-      <recent name="D:\React\my-react-way\src\state" />
-      <recent name="D:\React\my-react-way\src\common\FormsControls" />
-      <recent name="D:\React\my-react-way\src\components\Main\Profile\ProfileImage" />
-      <recent name="D:\React\my-react-way\src\components\Main\Profile" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\React\my-react-way\src\common\Paginator" />
       <recent name="D:\React\my-react-way\src\state" />
       <recent name="D:\React\my-react-way\src\store" />
       <recent name="D:\React\my-react-way\src\components\Main\Dialogs\Messages" />
       <recent name="D:\React\my-react-way\src\components\Main\Profile\ProfileImage" />
-      <recent name="D:\React\my-react-way\src\components\Main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\React\my-react-way\src\components\Users" />
+      <recent name="D:\React\my-react-way\src\components\Main\Profile\ProfileInfo" />
+      <recent name="D:\React\my-react-way\src\state" />
+      <recent name="D:\React\my-react-way\src\common\FormsControls" />
+      <recent name="D:\React\my-react-way\src\components\Main\Profile\ProfileImage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,6 +258,10 @@
       <workItem from="1581325393094" duration="9329000" />
       <workItem from="1581343975014" duration="6727000" />
       <workItem from="1581404272333" duration="2697000" />
+      <workItem from="1581483250243" duration="23000" />
+      <workItem from="1581483872329" duration="211000" />
+      <workItem from="1581512843939" duration="22000" />
+      <workItem from="1581602906857" duration="6970000" />
     </task>
     <task id="LOCAL-00001" summary="add some changes to different files">
       <created>1570810609672</created>
