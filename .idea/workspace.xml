@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Paginator/Paginator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Paginator/Paginator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Paginator/Paginator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Paginator/Paginator.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <list id="257c5827-85c9-4da7-bfee-3b5928eddf2d" name="64-th lesson is done" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -254,7 +258,9 @@
       <workItem from="1581483872329" duration="211000" />
       <workItem from="1581512843939" duration="22000" />
       <workItem from="1581602906857" duration="7317000" />
-      <workItem from="1581671437099" duration="1990000" />
+      <workItem from="1581671437099" duration="2610000" />
+      <workItem from="1581685626735" duration="612000" />
+      <workItem from="1581763418642" duration="4811000" />
     </task>
     <task id="LOCAL-00001" summary="add some changes to different files">
       <created>1570810609672</created>
@@ -515,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581611827187</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="90-th lesson is done">
+      <created>1581673445577</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1581673445577</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="52-th lesson is done" />
     <MESSAGE value="59-th lesson is done" />
     <MESSAGE value="60-th lesson is done" />
     <MESSAGE value="61-th lesson is done" />
@@ -560,7 +572,8 @@
     <MESSAGE value="85-th lesson is done" />
     <MESSAGE value="87-th lesson is done" />
     <MESSAGE value="90-th lesson is almost done)" />
-    <option name="LAST_COMMIT_MESSAGE" value="90-th lesson is almost done)" />
+    <MESSAGE value="90-th lesson is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="90-th lesson is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
