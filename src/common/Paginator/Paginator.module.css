@@ -1,5 +1,6 @@
 .paginator{
-    margin: 10px
+    margin: 10px;
+    width: 200px;
 }
 .pageNumber{
     padding: 2px;
