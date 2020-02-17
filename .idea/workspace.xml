@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/Api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileContainer.jsx" afterDir="false" />
     </list>
     <list id="257c5827-85c9-4da7-bfee-3b5928eddf2d" name="64-th lesson is done" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -257,7 +255,9 @@
       <workItem from="1581671437099" duration="2610000" />
       <workItem from="1581685626735" duration="612000" />
       <workItem from="1581763418642" duration="7394000" />
-      <workItem from="1581842537274" duration="2964000" />
+      <workItem from="1581842537274" duration="3460000" />
+      <workItem from="1581849377824" duration="4039000" />
+      <workItem from="1581870672999" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="add some changes to different files">
       <created>1570810609672</created>
@@ -539,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581773891811</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="96-th lesson is done">
+      <created>1581845972729</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1581845972729</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +566,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="61-th lesson is done" />
     <MESSAGE value="62-th lesson is done" />
     <MESSAGE value="63-th lesson is done" />
     <MESSAGE value="64-th lesson is done" />
@@ -584,7 +590,8 @@
     <MESSAGE value="90-th lesson is done" />
     <MESSAGE value="93-th lesson is done//pagination" />
     <MESSAGE value="94-th lesson is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="94-th lesson is done" />
+    <MESSAGE value="96-th lesson is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="96-th lesson is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

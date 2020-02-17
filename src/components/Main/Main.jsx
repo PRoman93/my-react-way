@@ -5,9 +5,7 @@ import News from "./News/News";
 import Music from "./Music/Music"
 import Settings from "./Settings/Settings"
 import {BrowserRouter, Route, withRouter} from "react-router-dom";
-import DialogsContainer from "./Dialogs/DialogsContainer";
 import UsersContainer from "../Users/UsersContainer";
-import ProfileContainer from "./Profile/ProfileContainer";
 import Login from "../Login/Login";
 import {compose} from "redux";
 import {connect, Provider} from "react-redux";

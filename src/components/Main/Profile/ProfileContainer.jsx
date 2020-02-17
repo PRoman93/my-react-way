@@ -1,6 +1,5 @@
 import React from "react";
 import s from "./Profile.module.css"
-// import ProfileImageContainer from "./ProfileImage/ProfileImageContainer";
 import Profile from "./Profile";
 import {connect} from "react-redux";
 import {getStatus, getUserProfile, savePhoto, updateStatus} from "../../../state/profile-reducer";
