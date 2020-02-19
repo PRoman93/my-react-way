@@ -30,7 +30,6 @@ class ProfileContainer extends React.Component {
             this.refreshProfile()
         }
     }
-
     render() {
 
         return (
@@ -45,7 +44,6 @@ class ProfileContainer extends React.Component {
         )
     }
 }
-
 let mapStateToProps = (state) => {
     return {
         profile: state.profileData.profile,
