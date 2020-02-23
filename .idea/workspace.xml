@@ -262,6 +262,9 @@
       <workItem from="1582034875699" duration="776000" />
       <workItem from="1582113455440" duration="676000" />
       <workItem from="1582118447055" duration="269000" />
+      <workItem from="1582118826246" duration="192000" />
+      <workItem from="1582121059847" duration="10000" />
+      <workItem from="1582201798905" duration="1427000" />
     </task>
     <task id="LOCAL-00001" summary="add some changes to different files">
       <created>1570810609672</created>
@@ -557,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581964809386</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="some refactoring">
+      <created>1582118887940</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1582118887940</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,7 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="62-th lesson is done" />
     <MESSAGE value="63-th lesson is done" />
     <MESSAGE value="64-th lesson is done" />
     <MESSAGE value="66-th lesson is done" />
@@ -602,7 +611,8 @@
     <MESSAGE value="93-th lesson is done//pagination" />
     <MESSAGE value="94-th lesson is done" />
     <MESSAGE value="96-th lesson is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="96-th lesson is done" />
+    <MESSAGE value="some refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="some refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
