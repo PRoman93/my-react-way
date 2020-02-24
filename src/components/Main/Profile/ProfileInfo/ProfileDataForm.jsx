@@ -13,6 +13,7 @@ const ProfileDataForm = ({handleSubmit, profile, error}) => {
             <b>Full name</b>: {createField("Full name", "fullName", [], Input)}
         </div>
         <div>
+
             <b>Looking for a job</b>: { createField("", "lookingForAJob", [], Input, {type: "checkbox"} )}
         </div>
 
@@ -28,7 +29,7 @@ const ProfileDataForm = ({handleSubmit, profile, error}) => {
         </div>
         <div>
             <b>Contacts</b>: {Object.keys(profile.contacts).map(key => {
-            return <div key={key}>
+            return <div key={key} >
                 <b>{key}: {createField(key, "contacts." + key, [], Input)}</b>
             </div>
         })}
