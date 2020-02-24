@@ -43,6 +43,9 @@ export const profileAPI = {
             'Content-Type':'multipart/from-data'
             }
         })
+    },
+    saveProfile(profile) {
+        return instanse.put(`profile`, profile)
     }
 }
 export const authAPI = {
