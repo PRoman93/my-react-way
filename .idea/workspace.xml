@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="" />
     <list id="257c5827-85c9-4da7-bfee-3b5928eddf2d" name="64-th lesson is done" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -271,6 +269,7 @@
       <workItem from="1583140037030" duration="811000" />
       <workItem from="1583141005181" duration="518000" />
       <workItem from="1583150021465" duration="94000" />
+      <workItem from="1583166679872" duration="196000" />
     </task>
     <task id="LOCAL-00001" summary="add some changes to different files">
       <created>1570810609672</created>
@@ -601,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582633531938</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="some refactoring">
+      <created>1583166794571</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1583166794571</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,11 +648,11 @@
     <MESSAGE value="93-th lesson is done//pagination" />
     <MESSAGE value="94-th lesson is done" />
     <MESSAGE value="96-th lesson is done" />
-    <MESSAGE value="some refactoring" />
     <MESSAGE value="97 lesson almost done" />
     <MESSAGE value="has some problems in profileDataForm" />
     <MESSAGE value="has some problems in profileDataForm still" />
-    <option name="LAST_COMMIT_MESSAGE" value="has some problems in profileDataForm still" />
+    <MESSAGE value="some refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="some refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
