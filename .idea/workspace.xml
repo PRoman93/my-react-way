@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/FormsControls/FormsControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/FormsControls/FormsControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/Api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/Posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo/ProfileDataForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo/ProfileDataForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/auth-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/profile-reducer.js" afterDir="false" />
     </list>
     <list id="257c5827-85c9-4da7-bfee-3b5928eddf2d" name="64-th lesson is done" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -284,14 +279,7 @@
       <workItem from="1583489545366" duration="9126000" />
       <workItem from="1583511075109" duration="596000" />
       <workItem from="1583513814215" duration="999000" />
-      <workItem from="1583576033123" duration="727000" />
-    </task>
-    <task id="LOCAL-00003" summary="24-th lesson is done">
-      <created>1571078538746</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1571078538746</updated>
+      <workItem from="1583576033123" duration="3363000" />
     </task>
     <task id="LOCAL-00004" summary="24-th lesson is done">
       <created>1571151710047</created>
@@ -629,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583511457070</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="refactoring">
+      <created>1583583965235</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1583583965235</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="73-th lesson is done" />
     <MESSAGE value="74-th lesson is done" />
     <MESSAGE value="75-th lesson is done" />
     <MESSAGE value="76-th lesson is done" />
@@ -674,7 +668,8 @@
     <MESSAGE value="some refactoring" />
     <MESSAGE value="required is fail" />
     <MESSAGE value="add all missing files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add all missing files" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
