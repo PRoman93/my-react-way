@@ -11,14 +11,10 @@ const Posts = React.memo(props => {
 console.log('rerender') // отрисовка происходит дважды
     let postsMessages = props.postData.map(p => <Post  key={p.id} message={p.message} likes={p.likesCount}/>);//стремный момент postData
 
-    // let newPost = React.createRef();
-    //
     let addNewPost = (values) => {
-        // let text = newPost.current.value;
         props.sendMessage(values.newPostText);
     };
     return (
-
         <div className={s.container}>
             <div className={s.posts}>
                 <h3>My posts</h3>
@@ -28,7 +24,6 @@ console.log('rerender') // отрисовка происходит дважды
         </div>
     )
 });
-
 const AddNewPostForm = (props) => {
     return (
         <form onSubmit={props.handleSubmit}>

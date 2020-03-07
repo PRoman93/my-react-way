@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="required is fail">
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Dialogs/DialogsItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Dialogs/MessageItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Profile/Posts/Post.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Profile/Posts/Posts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Profile/Profile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Profile/Profile.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/Spinner-1s-200px.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/default-user-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/depositphotos_43063593-stock-illustration-smiley-shows-that-all-will.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/message-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/profile-reducer.js" afterDir="false" />
+    <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/FormsControls/FormsControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/FormsControls/FormsControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/Posts/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo/ProfileDataForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo/ProfileDataForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/profile-reducer.js" afterDir="false" />
     </list>
     <list id="257c5827-85c9-4da7-bfee-3b5928eddf2d" name="64-th lesson is done" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -288,14 +282,9 @@
       <workItem from="1583166679872" duration="196000" />
       <workItem from="1583335531285" duration="56000" />
       <workItem from="1583489545366" duration="9126000" />
-      <workItem from="1583511075109" duration="326000" />
-    </task>
-    <task id="LOCAL-00002" summary="19-th lesson is done">
-      <created>1571049880361</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1571049880361</updated>
+      <workItem from="1583511075109" duration="596000" />
+      <workItem from="1583513814215" duration="999000" />
+      <workItem from="1583576033123" duration="727000" />
     </task>
     <task id="LOCAL-00003" summary="24-th lesson is done">
       <created>1571078538746</created>
@@ -633,7 +622,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583503647456</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="add all missing files">
+      <created>1583511457070</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1583511457070</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="70-th lesson is done" />
     <MESSAGE value="73-th lesson is done" />
     <MESSAGE value="74-th lesson is done" />
     <MESSAGE value="75-th lesson is done" />
@@ -678,7 +673,8 @@
     <MESSAGE value="has some problems in profileDataForm still" />
     <MESSAGE value="some refactoring" />
     <MESSAGE value="required is fail" />
-    <option name="LAST_COMMIT_MESSAGE" value="required is fail" />
+    <MESSAGE value="add all missing files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add all missing files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

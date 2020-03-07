@@ -13,11 +13,9 @@ const Dialogs = (props) => {
     let dialogsElements = state.dialogs.map(d => <DialogsItem name={d.name} id={d.id}/>)
     let messageElements = state.message.map(m => <MessageItem message={m.message}/>)
     let newMessageText = state.newMessageText
-
     let onNewMessage = (values) => {
         props.sendMessage(values.newMessageBody)
     }
-
     return (
         <div className={s.container}>
             <div className={s.dialogsItems}>
@@ -30,7 +28,6 @@ const Dialogs = (props) => {
         </div>
     )
 };
-
 const AddMessageForm = (props) => {
     return (
         <form onSubmit={props.handleSubmit}>
@@ -41,8 +38,5 @@ const AddMessageForm = (props) => {
         </form>
     )
 }
-
 const AddMessageFormRedux = reduxForm({form : 'dialogAddMessageForm'})(AddMessageForm)
-
-
 export default Dialogs;

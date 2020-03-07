@@ -4,7 +4,6 @@ import {Field} from "redux-form";
 
 
 export const FormControl = ({input, meta:{touched, error}, children}) => {
-
     const hasError = touched && error
     return (
 
