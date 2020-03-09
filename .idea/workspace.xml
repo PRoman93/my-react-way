@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Paginator/Paginator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Paginator/Paginator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.jsx" afterDir="false" />
     </list>
     <list id="257c5827-85c9-4da7-bfee-3b5928eddf2d" name="64-th lesson is done" comment="" />
@@ -280,14 +279,8 @@
       <workItem from="1583513814215" duration="999000" />
       <workItem from="1583576033123" duration="4266000" />
       <workItem from="1583751902785" duration="73000" />
-      <workItem from="1583765526481" duration="2072000" />
-    </task>
-    <task id="LOCAL-00006" summary="28-th lesson is done">
-      <created>1573758894566</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1573758894566</updated>
+      <workItem from="1583765526481" duration="2238000" />
+      <workItem from="1583772147108" duration="881000" />
     </task>
     <task id="LOCAL-00007" summary="28-th lesson is done">
       <created>1573843821939</created>
@@ -625,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583751946627</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="99-th lesson refactoring">
+      <created>1583768055523</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1583768055525</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,7 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="76-th lesson is done" />
     <MESSAGE value="77-th lesson is done" />
     <MESSAGE value="78-th lesson is done" />
     <MESSAGE value="79-th lesson is done" />
@@ -670,7 +669,8 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="98-th lesson (captcha is failed)" />
     <MESSAGE value="any refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="any refactoring" />
+    <MESSAGE value="99-th lesson refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="99-th lesson refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

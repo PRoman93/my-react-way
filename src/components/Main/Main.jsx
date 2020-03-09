@@ -17,10 +17,17 @@ import Preloader from "../../common/preloader/Preloader";
 class Main extends Component {
 
 
-
+    catchAllUnhandledErrors = (promiseRejectionEvent) => {
+        alert('some error')
+        console.error(promiseRejectionEvent)
+    }
 
     componentDidMount() {
         this.props.initializeApp()
+        window.addEventListener('unhandledrejection', this.catchAllUnhandledErrors )
+    }
+    componentWillUnmount() {
+        window.removeEventListener('unhandledrejection', this.catchAllUnhandledErrors)
     }
 
     render() {
@@ -33,22 +40,23 @@ class Main extends Component {
         }
         return (
 
-                <div className={s.container}>
-                    <Navbar/>
-                    <div className={s.wrapperContent}>
-                        <Route exact path='/'  render={()=> <Redirect to={'/profile'}/>}/>
-                        <Route path='/dialogs'  render={withSuspense(DialogsContainer)}/>
-                        <Route path='/profile/:userId?'  render={withSuspense(ProfileContainer)}/>
-                        <Route path='/news' component={News}/>
-                        <Route path='/music' component={Music}/>
-                        <Route path='/settings' component={Settings}/>
-                        <Route path='/users' render={() => <UsersContainer/>}/>
-                        <Route path='/login' render={() => <Login/>}/>
-                    </div>
+            <div className={s.container}>
+                <Navbar/>
+                <div className={s.wrapperContent}>
+                    <Route exact path='/' render={() => <Redirect to={'/profile'}/>}/>
+                    <Route path='/dialogs' render={withSuspense(DialogsContainer)}/>
+                    <Route path='/profile/:userId?' render={withSuspense(ProfileContainer)}/>
+                    <Route path='/news' component={News}/>
+                    <Route path='/music' component={Music}/>
+                    <Route path='/settings' component={Settings}/>
+                    <Route path='/users' render={() => <UsersContainer/>}/>
+                    <Route path='/login' render={() => <Login/>}/>
                 </div>
+            </div>
         )
     }
 }
+
 const mapStateToProps = (state) => ({
     initialized: state.app.initialized
 })
@@ -59,7 +67,7 @@ let AppContainer = compose(
 const SamuraiJSApp = (props) => {
     return <BrowserRouter>
         <Provider store={store}>
-            <AppContainer />
+            <AppContainer/>
         </Provider>
     </BrowserRouter>
 }
