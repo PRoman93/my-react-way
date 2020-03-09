@@ -4,7 +4,7 @@ import Navbar from "./Navbar/Navbar"
 import News from "./News/News";
 import Music from "./Music/Music"
 import Settings from "./Settings/Settings"
-import {BrowserRouter, Route, withRouter} from "react-router-dom";
+import {BrowserRouter, Redirect, Route, withRouter} from "react-router-dom";
 import UsersContainer from "../Users/UsersContainer";
 import Login from "../Login/Login";
 import {compose} from "redux";
@@ -36,6 +36,7 @@ class Main extends Component {
                 <div className={s.container}>
                     <Navbar/>
                     <div className={s.wrapperContent}>
+                        <Route exact path='/'  render={()=> <Redirect to={'/profile'}/>}/>
                         <Route path='/dialogs'  render={withSuspense(DialogsContainer)}/>
                         <Route path='/profile/:userId?'  render={withSuspense(ProfileContainer)}/>
                         <Route path='/news' component={News}/>
