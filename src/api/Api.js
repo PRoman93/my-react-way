@@ -4,9 +4,10 @@ const instanse = axios.create({
     withCredentials: true,
     baseURL: 'https://social-network.samuraijs.com/api/1.0/',
     headers: {
-        'API-KEY': '9a75d041-72ac-4332-ad7a-749ea855f8b0'
+        'API-KEY': 'cde98104-6e07-4290-87b8-6584c1b2a239'
     }
 })
+
 export const usersAPI = {
     getUsers(currentPage = 1, pageSize = 10) {
         return instanse.get(`users?page=${currentPage}&count=${pageSize}`)
@@ -25,6 +26,7 @@ export const usersAPI = {
 
     }
 }
+
 export const profileAPI = {
     getProfile(userId) {
         return instanse.get(`profile/` + userId)
