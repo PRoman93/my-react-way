@@ -12,7 +12,9 @@ console.log('rerender') // отрисовка происходит дважды
     let postsMessages = props.postData.map(p => <Post  key={p.id} message={p.message} likes={p.likesCount}/>);//стремный момент postData
 
     let addNewPost = (values) => {
-        props.sendMessage(values.newPostText);
+        debugger
+        props.sendMessage(values.NewPostText);
+        values.NewPostText = ''
     };
     return (
         <div className={s.container}>

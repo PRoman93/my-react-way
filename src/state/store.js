@@ -14,7 +14,7 @@
 //                 {id: 4, message: "Its my third post", likesCount: 16},
 //                 {id: 5, message: "Yo!", likesCount: 14}
 //             ],
-//             newPostText: ""
+// newPostText:''
 //         },
 //         messageData: {
 //             dialogs: [

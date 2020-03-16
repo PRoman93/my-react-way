@@ -6,13 +6,14 @@ import {connect} from "react-redux";
 
 const mapStateToProps = (state) => {
     return {
-        postData: state.profileData.postData,// стремный момент - берет несуществующий profileData.postData !!! УЗНАТЬ
+        postData: state.profileData.postData, // стремный момент - берет несуществующий profileData.postData !!! УЗНАТЬ
+        // newPostText: state.profileData.newPostText
         newPostText:state.profileData.newPostText
     }
 }
 let mapDispatchToProps = (dispatch) => {
     return {
-        sendMessage: (newPostText)=> {
+        sendMessage: (newPostText) => {
             dispatch(addPostActionCreator(newPostText))
         }
     }

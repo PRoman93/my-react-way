@@ -13,14 +13,17 @@ let initialState = {
         {id: 2, message: "Its my first post", likesCount: 8},
         {id: 3, message: "Its my second post", likesCount: 7},
         {id: 4, message: "Its my third post", likesCount: 16},
-        {id: 5, message: "Yo!", likesCount: 14}
+        {id: 5, message: "Yo!", likesCount: 14},
+
     ],
+    newPostText:'',
     profile: null,
     status: ''
 }
 const profileReducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD_POST: {
+            debugger
             let post = {
                 id: 6,
                 message: action.newPostText,
@@ -30,7 +33,7 @@ const profileReducer = (state = initialState, action) => {
                 ...state,
                 postData: [...state.postData, post],
                 newPostText: ''
-            };
+            }
         }
         case SET_USER_PROFILE: {
             return {
