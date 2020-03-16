@@ -7,7 +7,8 @@ import {login} from "../../state/auth-reducer";
 import {Redirect} from "react-router-dom";
 
 
-const LoginForm = ({handleSubmit, error, captchaUrl}) => {
+const LoginForm = ({handleSubmit, error, captchaUrl}) =>{
+    // debugger
     return (
         <form onSubmit={handleSubmit}>
                {createField('Email', 'email', [required], Input)}
@@ -16,7 +17,7 @@ const LoginForm = ({handleSubmit, error, captchaUrl}) => {
 
             {captchaUrl && <img src={captchaUrl}/>}
 
-            {captchaUrl && createField('symbols from image', 'captcha' [required], Input, {} )}
+            {captchaUrl && createField('symbols from image', 'captcha', [required], Input)}
             {error && <div className={'formSummaryError'}>{error}</div>}
             <div>
                 <button>Login</button>

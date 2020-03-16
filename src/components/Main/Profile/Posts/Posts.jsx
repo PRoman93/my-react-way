@@ -13,8 +13,8 @@ console.log('rerender') // отрисовка происходит дважды
 
     let addNewPost = (values) => {
         debugger
-        props.sendMessage(values.NewPostText);
-        values.NewPostText = ''
+        props.sendMessage(values.newPostText);
+        values.newPostText = ''
     };
     return (
         <div className={s.container}>
@@ -29,7 +29,7 @@ console.log('rerender') // отрисовка происходит дважды
 const AddNewPostForm = (props) => {
     return (
         <form onSubmit={props.handleSubmit}>
-            <div><Field name={'NewPostText'} component={Textarea} placeholder={'Yo'}
+            <div><Field name={'newPostText'} component={Textarea} placeholder={'Yo'}
             validate={[required, maxLength10]}/></div>
             <div>
                 <button>Send</button>

@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c5c00f5c-8320-491e-a361-a6dd76e0e809" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/FormsControls/FormsControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/FormsControls/FormsControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/Posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/Posts/PostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/Posts/PostsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/app-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/auth-reducer.js" afterDir="false" />
     </list>
     <list id="257c5827-85c9-4da7-bfee-3b5928eddf2d" name="64-th lesson is done" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -295,13 +292,8 @@
       <workItem from="1584194151833" duration="416000" />
       <workItem from="1584291034651" duration="5611000" />
       <workItem from="1584296672948" duration="202000" />
-    </task>
-    <task id="LOCAL-00011" summary="52-th lesson is done">
-      <created>1577177083132</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1577177083132</updated>
+      <workItem from="1584344901352" duration="125000" />
+      <workItem from="1584361316877" duration="3004000" />
     </task>
     <task id="LOCAL-00012" summary="59-th lesson is done">
       <created>1579872593165</created>
@@ -639,7 +631,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584172635755</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="added clearing field in posts">
+      <created>1584344964611</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1584344964612</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,7 +658,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="80-th trial lesson is done" />
     <MESSAGE value="80-th lesson is done" />
     <MESSAGE value="81-th lesson is done" />
     <MESSAGE value="83-th lesson is done" />
@@ -684,7 +682,8 @@
     <MESSAGE value="99-th lesson refactoring" />
     <MESSAGE value="99-th lesson any" />
     <MESSAGE value="99-th lesson any changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="99-th lesson any changes" />
+    <MESSAGE value="added clearing field in posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added clearing field in posts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
