@@ -8,8 +8,7 @@ import {Textarea} from "../../../../common/FormsControls/FormsControls";
 const maxLength10 = maxLengthCreator(10)
 
 const Posts = React.memo(props => {
-console.log('rerender') // отрисовка происходит дважды
-    let postsMessages = props.postData.map(p => <Post  key={p.id} message={p.message} likes={p.likesCount}/>);//стремный момент postData
+    let postsMessages = props.postData.map(p => <Post  key={p.id} message={p.message} likes={p.likesCount}/>);
 
     let addNewPost = (values) => {
         debugger

@@ -28,7 +28,6 @@ export const getCaptchaUrlSuccess = (captchaUrl) => ({type: GET_CAPTCHA_URL_SUCC
 export const getAuthUserData = () => async (dispatch) => {
     let response = await authAPI.me()
     if(response.data.resultCode === 0){
-            // debugger
             let {id, email,login} = response.data.data
             dispatch(setAuthUserData (id, email,login, true))
         }
@@ -42,7 +41,6 @@ export const login = (email,password, rememberMe, captcha) => async (dispatch) =
                 dispatch(getCaptchaUrl())
             }
             let message = response.data.messages.length > 0 ? response.data.messages[0] : 'Some error'
-            // let action = stopSubmit('login', {_error:'Common error'})
             dispatch(stopSubmit('login', {_error:message}))
         }
 }
@@ -59,8 +57,6 @@ export const logout = () => async (dispatch) => {
 }
 export default authReducer
 
-// rerender(store)
 
 
-//store - OOP
 
