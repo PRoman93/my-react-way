@@ -22,6 +22,7 @@ export const usersAPI = {
         return instanse.delete(`follow/${userId}`)
     },
     getProfile(userId) {
+        debugger
         return profileAPI.getProfile(userId)
 
     }
