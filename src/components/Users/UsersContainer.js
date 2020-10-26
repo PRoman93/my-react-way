@@ -1,19 +1,8 @@
 import React from 'react'
 import Users from "./Users";
 import {connect} from "react-redux";
-import {
-    follow, requestUsers, getUsersThunkCreator,
-    setCurrentPage,
-    setTotalUsersCount,
-    setUsers, toggleFollowingProgress,
-    toggleIsFetching,
-    unfollow
-} from "../../state/users-reducer";
-import * as axios from "axios";
-import loader from './Spinner-1s-200px.svg'
+import {follow, requestUsers, setCurrentPage, toggleFollowingProgress, unfollow} from "../../state/users-reducer";
 import Preloader from "../../common/preloader/Preloader";
-import {usersAPI} from "../../api/Api";
-import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 import {compose} from "redux";
 import {
     gerUsers,
@@ -21,7 +10,7 @@ import {
     getFollowingInProgress,
     getIsFetching,
     getPageSize,
-    getTotalUsersCount, getUsers
+    getTotalUsersCount
 } from "../../state/users-selectors";
 
 class UsersContainer extends React.Component {
@@ -55,17 +44,6 @@ class UsersContainer extends React.Component {
     }
 }
 
-
-// let mapStateToProps = (state) => {
-//     return {
-//         users: state.usersPage.users,
-//         pageSize: state.usersPage.pageSize,
-//         totalUsersCount: state.usersPage.totalUsersCount,
-//         currentPage: state.usersPage.currentPage,
-//         isFetching: state.usersPage.isFetching,
-//         followingInProgress: state.usersPage.followingInProgress
-//     }
-// }
 let mapStateToProps = (state) => {
     return {
         users: gerUsers(state),
@@ -78,7 +56,8 @@ let mapStateToProps = (state) => {
 }
 
 export default compose(
-    // withAuthRedirect
-(connect(mapStateToProps, {follow, unfollow,
-    setCurrentPage,
-    toggleFollowingProgress, getUsers: requestUsers})(UsersContainer)))
+    (connect(mapStateToProps, {
+        follow, unfollow,
+        setCurrentPage,
+        toggleFollowingProgress, getUsers: requestUsers
+    })(UsersContainer)))

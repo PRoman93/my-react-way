@@ -1,4 +1,4 @@
-import {profileAPI, usersAPI} from "../api/Api";
+import {profileAPI, usersAPI} from "../api/api";
 import {stopSubmit} from "redux-form";
 
 const ADD_POST = 'ADD-POST';

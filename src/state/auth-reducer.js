@@ -1,4 +1,4 @@
-import {authAPI, securityAPI} from "../api/Api";
+import {authAPI, securityAPI} from "../api/api";
 import {stopSubmit} from "redux-form";
 
 const SET_USER_DATA = 'samurai-network/auth/SET_USER_DATA'
@@ -50,10 +50,11 @@ export const getCaptchaUrl = () => async (dispatch) => {
             dispatch(getCaptchaUrlSuccess(captchaUrl))
         }
 export const logout = () => async (dispatch) => {
-   let response = await authAPI.logout()
-        if(response.data.resultCode === 0){
-        dispatch(setAuthUserData(null, null, null, false))
-        }
+    let response = await authAPI.logout();
+
+    if (response.data.resultCode === 0) {
+        dispatch(setAuthUserData(null, null, null, false));
+    }
 }
 export default authReducer
 

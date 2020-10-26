@@ -1,4 +1,4 @@
-import {usersAPI} from "../api/Api";
+import {usersAPI} from "../api/api";
 import {updateObjectInArray} from "../utils/objects-helpers";
 
 const FOLLOW = 'FOLLOW;'
@@ -27,24 +27,12 @@ const usersReducer = (state = initialState, action) => {
             return {
                 ...state,
                 users: updateObjectInArray(state.users, action.userId, 'id',  {followed: true})
-                // users: state.users.map(u => {
-                //     if (u.id === action.userId) {
-                //         return {...u, followed: true}
-                //     }
-                //     return u
-                // })
             }
         case UNFOLLOW: /// БАГ!!! нельзя отписаться сразу же после подписки!!!
             // debugger
             return {
                 ...state,
                 users: updateObjectInArray(state.users, action.userId, 'id',  {followed: false})
-                // users: state.users.map(u => {
-                //     if (u.id === action.userId) {
-                //         return {...u, followed: false}
-                //     }
-                //     return u
-                // })
             }
         case SET_USERS:
             return {...state, users: action.users}
