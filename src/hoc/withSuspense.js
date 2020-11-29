@@ -1,13 +1,11 @@
 import React from "react";
-import Preloader from "../common/preloader/Preloader";
+import Preloader from "../components/common/Preloader/Preloader";
 
 
 export const withSuspense = (Component) => {
-
     return (props) => {
-        return <React.Suspense fallback={<Preloader />} >
+        return <React.Suspense fallback={<div>loading...</div>} >
             <Component {...props} />
         </React.Suspense>
-
     };
 }

@@ -1,12 +1,6 @@
-.userPhoto{
-  width: 100px;
-  height: 100px;
+.userPhoto {
+     width: 100px;
+    height: 100px;
 }
-/*.selectedPage{*/
-/*  font-weight: bold;*/
-/*}*/
-.users{
-  width: 80%;
-  display: flex;
-  /*flex-wrap: wrap;*/
-}
+
+

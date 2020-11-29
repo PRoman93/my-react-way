@@ -1,10 +1,17 @@
-.container{
-    background-color: red;
-    min-height: 13vh;
-    display: flex;
+.header {
+    grid-area: h;
+    background-color: green;
 }
 
-.header img{
-    width: 100px;
-    height: 100px;
+.header img {
+    width: 20px;
 }
+
+.loginBlock {
+    float: right;
+
+}
+.loginBlock a {
+    color: white;
+}
+
